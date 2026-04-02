@@ -9,7 +9,7 @@ int main(){
     cin >> r;
     cout << r << endl;
 
-    cin.ignore();        // 🔥 fix
+    cin.ignore();        
     getline(cin, s);     
 
     cin >> n;
