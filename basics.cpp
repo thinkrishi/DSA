@@ -1,22 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int main(){
-    string s;
-    int n;
-    float r;
-
-    cin >> r;
-    cout << r << endl;
-
-    cin.ignore();        
-    getline(cin, s);     
-
+    int n ;
     cin >> n;
-
-    for(int i = 0; i < n; i++){
-        cout << s << endl;
-    }
-
+    cout << n;
     return 0;
 }
