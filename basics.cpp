@@ -9,6 +9,12 @@ int main(){
     return 0;
 }
 */
+
+
+
+
+
+
 //dataTYPES
 
 //primitve datatypes 
@@ -39,6 +45,14 @@ int main(){
     return 0;
 }
 */
+
+
+
+
+
+
+
+
 //if else statement
 /*
 #include<bits/stdc++.h>
@@ -54,6 +68,18 @@ int main(){
     }
 
 */
+
+
+
+
+
+
+
+
+
+
+
+
 //if else if statement
 //lets say marks distribution
 /*
@@ -78,7 +104,52 @@ int main(){
 }
   */
 
-  
+
+
+
+
+
+
+
+
+  //for loop statement
+  // for both string use getline
+  // int 
+ /* #include<bits/stdc++.h>
+  using namespace std;
+  int main(){
+    int r;
+    cin >> r;
+    for(int i =0;i<r;i++)
+    {
+        cout << "rishi is king" << endl;
+    }
+    return 0;
+}
+    */
+   // string and int bth in one
+/*
+
+   #include<bits/stdc++.h>
+   using namespace std;
+   int main(){
+    string str;
+    int n;
+    cout << "enter the number of times u need to print the statement :  ";
+    cin >> n;
+    cin.ignore();
+    getline(cin,str);
+    for(int i =0;i<=n;i++){
+        cout << str << endl ;
+    }
+    return 0;
+
+}
+    
+*/
+
+
+
         
 
 
