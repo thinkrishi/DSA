@@ -173,7 +173,7 @@ int main(){
 //switch case important uses cases
 
 
-
+/*
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -195,6 +195,67 @@ int main()
     return 0;
 }
                   
+*/
+
+
+
+
+
+
+
+
+
+
+
+//ARRAY 
+/*
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int arr[]={34,343,232,232,324};
+    cin >> arr[1];
+    for(int i = 0;i<=4;i++){
+        cout << arr[i] << endl;
+    }
+    return 0;
+}
+*/
+/*
+
+// arrayy 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string str[]={"rsihs","rsijr"};
+    cin >> str[1];
+    cout << str[1]<<endl;
+    for(int i=0;i<=1;i++){
+        cout << str[i] << endl ;
+    }
+    return 0;
+}
+*/
+
+
+
+
+
+
+
+//string 
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string firstname ="rishikesh";
+    string secondname = " gowda";
+    cout << firstname+secondname << endl;
+    cout << firstname.length();
+    return 0;
+}
 
         
 
