@@ -245,7 +245,7 @@ int main(){
 
 //string 
 
-
+/*
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -257,7 +257,76 @@ int main()
     return 0;
 }
 
-        
+*/
+
+
+
+
+
+
+//function
+/*
+
+#include<bits/stdc++.h>
+using namespace std;
+void rishi()
+{
+    cout << " hur" << endl;
+}
+int main(){
+     rishi();
+    return 0;
+}
+*/
+
+
+
+
+//function pass by value
+//simple the inside the bracket in void rishi is not touched!!!!!!
+// but imp remember the int n is declared bf and inside ()
+//thats pass by value
+/*
+#include<bits/stdc++.h>
+using namespace std;
+void rishi(int n){
+    n = 10;
+}
+int main(){
+    int n =100;
+    rishi(n);
+    cout << n;
+    return 0;
+}
+
+
+*/
+
+
+//funtion pass by refernce
+//always use & 
+//for ths so pass by refernce means execute an duse alwsy whats inside the {}
+
+
+#include<bits/stdc++.h>
+using namespace std;
+void rok(int &r){
+    r =100;
+}
+int main(){
+    int n =10;
+    rok(n);
+    cout << n ;
+    return 0;
+}
+
+
+
+
+
+// simple understanding listen to me carefull pass by value means does not use whats inside the {}
+// and pass by refeernce use & and always use wts inside{}.
+
 
 
     
