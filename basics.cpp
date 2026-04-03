@@ -147,8 +147,54 @@ int main(){
 }
     
 */
+//while loop
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n=5;
 
 
+    while(n>=0){
+        cout << n << " " ;
+        n++;
+    }
+    return 0;
+}
+*/
+
+
+
+
+
+
+
+//switch case important uses cases
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int c;
+    cout << "enter the number nin akkan leyyy :  " ;
+    cin >> c;
+
+
+    switch(c){
+        case 1 : cout << " fuck";
+         break;
+         case 2 : cout << " you " ;
+         break ;
+         default : cout << "nin amman " ;
+         break ;
+        
+    }
+    return 0;
+}
+                  
 
         
 
