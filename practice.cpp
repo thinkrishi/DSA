@@ -6,7 +6,7 @@ int main(){
     vector<int> ris;
     cout << " enter the number with space  : " << endl ;
     
-    while(cin >> x){
+    while(cin >> x && x!=-1 ){
         ris.push_back(x);
     }
     for (auto &i : ris){
