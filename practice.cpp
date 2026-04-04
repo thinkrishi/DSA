@@ -4,6 +4,7 @@ int main(){
     int x;
 
     vector<int> ris;
+    cout << " enter the number with space  : " << endl ;
     
     while(cin >> x){
         ris.push_back(x);
