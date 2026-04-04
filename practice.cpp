@@ -7,9 +7,10 @@ int main(){
     
     while(cin >> x){
         ris.push_back(x);
+    }
     for (auto &i : ris){
         cout << i << " " ;
     }
     return 0;
-}
+
 }
