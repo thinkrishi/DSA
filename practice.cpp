@@ -1,17 +1,14 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
-    int x;
 
-    vector<int> ris;
-    cout << " enter the number with space  : " << endl ;
-    
-    while(cin >> x && x!=-1 ){
-        ris.push_back(x);
-    }
-    for (auto &i : ris){
-        cout << i << " " ;
-    }
+int main() {
+    int n;
+    cin >> n;
+
+    vector<int> a(n);
+    for(int &x : a) cin >> x;
+
+    for(int x : a) cout << x << " ";
+
     return 0;
-
 }
