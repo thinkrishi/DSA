@@ -20,3 +20,19 @@ int main() {
 
 
 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n ;
+    cin >> n;
+    vector<int> d(n);
+    for(auto &i : d){
+        cin >> i;
+
+    }
+    for(auto i : d){
+        cout << i<<  " " ;
+    }
+    
+    return 0 ;
+}
