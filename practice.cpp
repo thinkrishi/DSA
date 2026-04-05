@@ -41,20 +41,4 @@ int main() {
 
 
 
-
-
-
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-    int n;
-    cin >> n;
-    vector < int > c(n);
-    for(auto &x : c) {
-        cin >> x ;
-    }
-    for(auto x : c){
-        cout << c << " ";
-    }
-    return 0;
-}
+ 
